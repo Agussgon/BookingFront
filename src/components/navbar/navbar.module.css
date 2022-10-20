@@ -1,0 +1,4 @@
+.header1,.footer-layout {
+    background-color: var(--grey);
+    height: 100px;
+}

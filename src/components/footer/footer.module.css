@@ -1,0 +1,19 @@
+.footer1 {
+  background-color: var(--grey);
+  height: 100px;
+  margin-top: 100vh;
+        color: var(--yellow);
+  }
+
+  button{
+    font-family: 'Poppins', bold 16;
+    float: right;
+    background: var(--grey);
+    color:var(--pink);
+    border: 1px solid var(--yellow);
+    border-radius: .65rem;
+    padding: 15px 60px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}

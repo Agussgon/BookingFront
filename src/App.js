@@ -1,17 +1,21 @@
 
 //import './App.css';
-import Layout from './components/Layout';
+import Footer from './components/footer/Footer';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div >
-      <Layout>
-  
-        <section>
-          <h1>Prueba</h1>
-        </section>
-      </Layout>
-    </div>
+    <>
+    <Navbar/>
+    
+    {/* // <div >
+      
+    //     <section>
+    //       <h1>Prueba</h1>
+    //     </section>
+    // </div> */}
+    <Footer/>
+    </>
   );
 }
 

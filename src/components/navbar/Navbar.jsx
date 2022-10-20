@@ -1,10 +1,11 @@
-import './Layout.css'
-import img from '../assets/logo.png';
+import img from '../../assets/img/logo.png';
+import styles from './navbar.module.css'
 
-const Layout= ({children})=>{
+
+const Navbar= ({children})=>{
     return (
     <>
-    <header className="header-layout">
+    <header className= {styles.header1} >
         <div>
             <img src={img} alt='logo' />
             <p>Sentite como en tu hogar</p>
@@ -16,10 +17,10 @@ const Layout= ({children})=>{
         </div>
     </header>
     {children}
-    <footer className="footer-layout">©202 Digital Booking</footer>
+    
     </>)
 
 }
 
 
-export default Layout
+export default Navbar

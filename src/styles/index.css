@@ -15,3 +15,7 @@ body {
   --black: #263238;  
   --pink:#FFFBE2;  
 }
+
+p{
+  color: var(--grey) ;
+}
