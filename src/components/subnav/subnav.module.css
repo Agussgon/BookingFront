@@ -10,6 +10,7 @@ h2{
   padding: 1.5%;
   margin: 0%;
 }
+/* fds */
 .subnav_container_box {
   height: 50%;
   display: flex;
@@ -37,6 +38,7 @@ input::placeholder{
   font-weight: 600;
 }
 .icon_subnav{
+
   width: 20px;
   height: 26px;
 }
