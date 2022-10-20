@@ -1,21 +1,47 @@
+/* General Styles */
 body {
   margin: 0;
-  height:100vh; 
+  /* height:100vh;  */
   background-color: var(--pink);
-
 }
 
 *{ font-family: 'Poppins', sans-serif; }
 
-/*estilo global */
 :root {
   --grey: #607D8B;
   --yellow:#FBC02D; 
   --blue: #607D8B;
   --black: #263238;  
   --pink:#FFFBE2;  
+  --button2: #1DBEB4;
 }
 
 p{
   color: var(--grey) ;
+}
+
+
+.button1{
+  font-family: 'Poppins', bold 16;
+  float: right;
+  background: var(--grey);
+  color:var(--pink);
+  border: 1px solid var(--yellow);
+  border-radius: .65rem;
+  padding: 15px 60px;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+  box-sizing: border-box;
+}
+.button2{
+  width: 206px;
+  height: 40px;
+  padding: 2.5%;
+  box-sizing: border-box;
+  background-color: var(--button2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
 }

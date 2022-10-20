@@ -1,4 +1,5 @@
-.header1,.footer-layout {
+/* Modularization of components : Navbar */
+.header1 {
     background-color: var(--grey);
     height: 100px;
 }

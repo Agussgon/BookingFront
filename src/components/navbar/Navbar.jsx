@@ -1,25 +1,27 @@
+//Assets
 import img from '../../assets/img/logo.png';
-import styles from './navbar.module.css'
+
+//Styles
+import '../../styles/index.css' //General
+import styles from './navbar.module.css' //Module
 
 
-const Navbar= ({children})=>{
-    return (
+const Navbar = () => {
+  return (
     <>
-    <header className= {styles.header1} >
+      <header className={styles.header1} >
         <div>
-            <img src={img} alt='logo' />
-            <p>Sentite como en tu hogar</p>
+          <img src={img} alt='logo' />
+          <p>Sentite como en tu hogar</p>
         </div>
 
         <div>
-        <button >Crear Cuenta</button>
-        <button >Iniciar Sesion</button>
+          <button className="button1">Crear Cuenta</button>
+          <button className="button1">Iniciar Sesion</button>
         </div>
-    </header>
-    {children}
-    
-    </>)
-
+      </header>
+    </>
+  )
 }
 
 
