@@ -8,7 +8,7 @@ la pantalla.*/
 body {
   margin: 0;
   height:100vh; 
-  background-color: var(--pink);
+  background-color: var(--blue);
 }
 
 *{ font-family: 'Poppins', sans-serif;
@@ -31,17 +31,13 @@ p{
 
 
 .button1{
-  
-  float: right;
   background: var(--grey);
   color:var(--pink);
   border: 1px solid var(--yellow);
   border-radius: .65rem;
-  padding: 15px 60px;
-  position: relative;
-  bottom: 50px;
-  right: 50px;
+  padding: 2.3vh 5vw;
   box-sizing: border-box;
+  
 }
 .button2{
   width: 206px;

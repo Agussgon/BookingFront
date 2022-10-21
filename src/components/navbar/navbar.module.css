@@ -4,13 +4,13 @@
 posición fija al tope de la página que se verá en
 todas las pantallas de la aplicación,*/
 .header1 {
-    background-color: var(--grey);
+    background-color: var(--pink);
     position: fixed;
     height: 100px;
-    padding: 1vh 1vw;
+    padding: 1vh ;
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
