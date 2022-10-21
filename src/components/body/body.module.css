@@ -1,0 +1,6 @@
+/* Este body es provisional solo lo pongo para generar la diferencia de espacio para que puedan
+seguir modificando el footer sin inconveniente, ya que la medida que se tenía, descuadraba los
+demas espascios */
+.bodyCont{
+height: 100vh;
+}

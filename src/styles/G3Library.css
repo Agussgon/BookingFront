@@ -1,0 +1,66 @@
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.f-start {
+    justify-content: flex-start;
+}
+
+.f-end {
+    justify-content: flex-end;
+}
+
+.f-center {
+    justify-content: center;
+}
+
+.f-space-between {
+    justify-content: space-between;
+}
+
+.f-space-around {
+    justify-content: space-around; 
+}
+
+.f-space-evenly {
+    justify-content: space-evenly;
+}
+
+.f-start {
+    justify-content: start;
+}
+
+.f-end {
+    justify-content: end;
+}
+
+.f-left {
+    justify-content: left;
+}
+
+.f-right {
+    justify-content: right;
+}
+
+
+/*.bg {
+    background-color: red;
+}*/
