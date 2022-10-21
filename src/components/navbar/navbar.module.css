@@ -5,9 +5,7 @@ posición fija al tope de la página que se verá en
 todas las pantallas de la aplicación,*/
 .header1 {
     background-color: var(--pink);
-    position: fixed;
     height: 100px;
-    padding: 1vh ;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -18,7 +16,6 @@ todas las pantallas de la aplicación,*/
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    padding: 10% 10%;
 }
 
 a{ text-decoration:none; }

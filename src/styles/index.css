@@ -5,41 +5,44 @@
 background elegido que ocupe el 100 % del alto de
 la pantalla.*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
   margin: 0;
-  height:100vh; 
-  background-color: var(--blue);
 }
 
-*{ font-family: 'Poppins', sans-serif;
+* {
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 :root {
   --grey: #607D8B;
-  --yellow:#FBC02D; 
+  --yellow: #FBC02D;
   --blue: #607D8B;
-  --black: #263238;  
-  --pink:#FFFBE2;  
+  --black: #263238;
+  --pink: #FFFBE2;
   --button2: #FBC02D;
 }
 
-p{
-  color: var(--yellow) ;
+p {
+  color: var(--yellow);
 }
 
 
-.button1{
+.button1 {
   background: var(--grey);
-  color:var(--pink);
+  color: var(--pink);
   border: 1px solid var(--yellow);
   border-radius: .65rem;
   padding: 2.3vh 5vw;
   box-sizing: border-box;
-  
+
 }
-.button2{
+
+.button2 {
   width: 206px;
   height: 40px;
   padding: 2.5%;
