@@ -1,5 +1,25 @@
 /* Modularization of components : Navbar */
+
+/*Crear un header al 100 % de la pantalla y de
+posición fija al tope de la página que se verá en
+todas las pantallas de la aplicación,*/
 .header1 {
     background-color: var(--grey);
+    position: fixed;
     height: 100px;
+    padding: 1vh 1vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
+
+.div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 1vh 1vw ;
+}
+
+a{ text-decoration:none; }

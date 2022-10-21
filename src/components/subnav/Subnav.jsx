@@ -9,6 +9,13 @@ import styles from './subnav.module.css' //Module
 import calend from '../../assets/icons/calend.png'
 import position from '../../assets/icons/position.png'
 
+
+/*● Crear un bloque que incluya un heading <h1 /> como título y un parágrafo <p />.
+● Crear un formulario que incluya:
+○ Lista desplegable (Select): Ciudad.
+○ Fecha de inicio y fin: Calendario doble. !!!!
+○ Botón para buscar.
+Por el momento la lista de ciudades debe ser obtenida de un JSON estático. */
 const Subnav = () => {
   return (
     <div className={styles.subnav_container}>
