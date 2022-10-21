@@ -1,9 +1,12 @@
 // React
-import React from 'react'
+import React, { useState } from "react";
+// import DatePicker from "react-datepicker";
+
 
 //Styles
 import '../../styles/index.css' //General
 import styles from './subnav.module.css' //Module
+import "react-datepicker/dist/react-datepicker.css"; //react-datepicker
 
 //Assets
 import calend from '../../assets/icons/calend.png'
@@ -16,7 +19,10 @@ import position from '../../assets/icons/position.png'
 ○ Fecha de inicio y fin: Calendario doble. !!!!
 ○ Botón para buscar.
 Por el momento la lista de ciudades debe ser obtenida de un JSON estático. */
+
 const Subnav = () => {
+  // const [startDate, setStartDate] = useState(new Date());
+
   return (
     <div className={styles.subnav_container}>
       <div className={styles.subnav_container_box}>
@@ -35,12 +41,19 @@ const Subnav = () => {
             <input type='text' placeholder='Check in - Check out' />
           </div>
           <div>
-            {/* Como tenemos dos tipos de botones en todas las pantallas el estilo del button2
-            se dejo en index.css para poder usarlo en otras pantallas al igual el button1 que fue el que crearon al principio */}
+        
             <button  className='button2'>Buscar</button>
           </div>
         </form>
       </div>
+
+      {/* <DatePicker
+      selected={startDate}
+      onChange={(date) => setStartDate(date)}
+      monthsShown={2}
+      inline
+      /> */}
+
     </div>
   )
 }
