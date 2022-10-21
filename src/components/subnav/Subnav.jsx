@@ -11,6 +11,9 @@ import "react-datepicker/dist/react-datepicker.css"; //react-datepicker
 import calend from '../../assets/icons/calend.png'
 import position from '../../assets/icons/position.png'
 
+// lista de ciudades de prueba
+ import list from './data.json'
+
 
 /*● Crear un bloque que incluya un heading <h1 /> como título y un parágrafo <p />.
 ● Crear un formulario que incluya:
@@ -21,11 +24,19 @@ Por el momento la lista de ciudades debe ser obtenida de un JSON estático. */
 
 const Subnav = () => {
   const [startDate, setStartDate] = useState(new Date());
-  const [showDatePicker, setShowDatePicker] = useState(false)
+  const [showDatePicker, setShowDatePicker] = useState(false);
+
+  const [city,setCity]= useState();
 
   function handleCalend() {
     setShowDatePicker(!showDatePicker)
     console.log("entre")
+  }
+
+
+  function handleCity(e){
+    setCity(e.target.value);
+    
   }
 
   return (
@@ -39,8 +50,11 @@ const Subnav = () => {
             <div className={styles.container_icon}>
               <img src={position} alt="Icon Position" className={styles.icon_subnav} />
             </div>
-            <input type='text'  placeholder='¿A dónde vamos?' 
-            className={styles.input_search}  />
+
+            <select onChange={handleCity}  placeholder='¿A dónde vamos?' 
+            className={styles.input_search} >
+             {list.map(city=> <option value={city.city.name}>{city.city.name}</option>)}
+            </select>
 
           </div>
           <div className={styles.search}>

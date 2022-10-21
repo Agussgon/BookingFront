@@ -8,6 +8,7 @@ import styles from './body.module.css' //Module
 
 const Body = () => {
   return (
+    
     <main >
       <div className={styles.bodyCont}>
         <h1>Body</h1>

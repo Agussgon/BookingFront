@@ -18,7 +18,7 @@ inicio de sesión y/o un botón de registro en el caso de
 que el usuario no esté logueado. En caso contrario,
 mostrar el nombre de usuario, un avatar de letras con
 las iniciales del nombre de usuario y un link de cierre
-de sesión.*/
+de sesión. */
 
 const Navbar = () => {
 
@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link to='/'> <p >Sentite como en tu hogar</p></Link>
         </div>
 
-        <div className={styles.div1}>
+        <div className={styles.div2}>
           <button className="button1">Crear Cuenta</button>
           <button className="button1">Iniciar Sesion</button>
         </div>

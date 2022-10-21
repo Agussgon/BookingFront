@@ -7,6 +7,22 @@ import { Link } from 'react-router-dom';
 
 //import flexCSS from '../styles/module.flex.css';
 
+/*Consulta en el contenedor SignIn tengo entendido que es una buena practica usar
+setState en lugar de modificar las propiedades del objeto model directamente en el input
+onChange={(e) => model.lastName = e.target.value} 
+
+ejemplo agregar al objeto setModel y usarlo en una función aparte 
+
+const handleChange= (e,e.value)=>{
+setModel({...model, e.value: e.target.value });
+y en el form algo asi: 
+<input onChange={handleChange} value=model.name type="text"/>
+}; 
+
+No se si funcionara  o si esta del todo bien la sintaxis
+ pero tendria que ser algo asi para poder reutilizar esa función y no crear un estado por 
+cada propiedad del usuario  */
+
 export const SignIn = () => {
 
 	const [model] = useState({

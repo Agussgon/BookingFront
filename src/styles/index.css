@@ -35,12 +35,18 @@ p {
 
 
 .button1 {
-  background: var(--grey);
-  color: var(--pink);
-  border: 1px solid var(--yellow);
-  border-radius: .65rem;
-  padding: 2.3vh 5vw;
+
+  background: var(--pink);
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  padding: 10px 40px;
   box-sizing: border-box;
+  font-weight: bold;
+  font-size:small;
+  
+ 
+ 
 }
 .button2 {
   width: 20%;
