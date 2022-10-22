@@ -13,18 +13,6 @@
  
     },
     {
-        "id": "1",
-        "url imagen":"https://www.luxurylatinamerica.com/argentina/photos/arg_faena400.jpg",
-        "name":"Hotel Faena",
-        "type":"Hotel",
-        "Start": "5",
-        "qualification-numbre":"8",
-        "qualification-text":"Muy bueno",
-        "description":"El Faena Hotel Buenos Aires se encuentra en la exclusiva zona de Puerto Madero y es un lujoso hotel de 5 estrellas de diseño situado en un edificio impresionante con spa y piscina. Además, hay WiFi",
-        "distance":"2,1 km del centro",
-        "icons":"../../assets/icons/wifi.png"
-    },
-    {
         "id": "2",
         "url imagen":"https://media-cdn.tripadvisor.com/media/photo-s/26/68/86/a4/exterior.jpg",
         "name":"Hilton Bogota",
@@ -47,18 +35,6 @@
         "qualification-text":"Bueno",
         "description":"Nos encontramos en pleno centro de la ciudad de Córdoba, a pocas cuadras de bares, cines, teatros y los circuitos turísticos más importantes.",
         "distance":"4,7 km del centro",
-        "icons":"../../assets/icons/wifi.png"
-    },
-    {
-        "id": "1",
-        "url imagen":"https://www.luxurylatinamerica.com/argentina/photos/arg_faena400.jpg",
-        "name":"Hotel Faena",
-        "type":"Hotel",
-        "Start": "5",
-        "qualification-numbre":"8",
-        "qualification-text":"Muy bueno",
-        "description":"El Faena Hotel Buenos Aires se encuentra en la exclusiva zona de Puerto Madero y es un lujoso hotel de 5 estrellas de diseño situado en un edificio impresionante con spa y piscina. Además, hay WiFi",
-        "distance":"2,1 km del centro",
         "icons":"../../assets/icons/wifi.png"
     },
     {
