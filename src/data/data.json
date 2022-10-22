@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "url imagen": "https://www.luxurylatinamerica.com/argentina/photos/arg_faena400.jpg",
+    "urlImagen": "https://www.luxurylatinamerica.com/argentina/photos/arg_faena400.jpg",
     "name": "Hotel Faena",
     "type": "Hotel",
     "Start": "5",
@@ -13,7 +13,7 @@
   },
   {
     "id": "2",
-    "url imagen": "https://media-cdn.tripadvisor.com/media/photo-s/26/68/86/a4/exterior.jpg",
+    "urlImagen": "https://media-cdn.tripadvisor.com/media/photo-s/26/68/86/a4/exterior.jpg",
     "name": "Hilton Bogota",
     "type": "Hotel",
     "Start": "5",
@@ -25,7 +25,7 @@
   },
   {
     "id": "3",
-    "url imagen": "https://media-cdn.tripadvisor.com/media/photo-s/02/22/bd/51/de-ingang-van-de-hostel.jpg",
+    "urlImagen": "https://media-cdn.tripadvisor.com/media/photo-s/02/22/bd/51/de-ingang-van-de-hostel.jpg",
     "name": "Aldea hostel Cordoba",
     "type": "Hostel",
     "Start": "3",
@@ -37,7 +37,7 @@
   },
   {
     "id": "4",
-    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/376956938.jpg?k=ff61081a6d8ae792aa70aafd18683c0baf40bf703c14ab0642a51a02f76d800b&o=&hp=1",
+    "urlImagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/376956938.jpg?k=ff61081a6d8ae792aa70aafd18683c0baf40bf703c14ab0642a51a02f76d800b&o=&hp=1",
     "name": "Luxury Apartments in Recoleta",
     "type": "Departamento",
     "Start": "4",
@@ -49,7 +49,7 @@
   },
   {
     "id": "5",
-    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/336276289.jpg?k=fe4486fec017008083803105bc89f18e7978a094eeb9b6e41d619baefeee9235&o=&hp=1",
+    "urlImagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/336276289.jpg?k=fe4486fec017008083803105bc89f18e7978a094eeb9b6e41d619baefeee9235&o=&hp=1",
     "name": "Andiamo Guest House",
     "type": "Bed and Breakfasts",
     "Start": "3",
@@ -61,7 +61,7 @@
   },
   {
     "id": "6",
-    "url imagen": "https://www.wyndhamhotels.com/content/dam/property-images/en-us/lq/co/others/medellin/52734/52734_exterior_day_1.jpg",
+    "urlImagen": "https://www.wyndhamhotels.com/content/dam/property-images/en-us/lq/co/others/medellin/52734/52734_exterior_day_1.jpg",
     "name": "La Quinta by Wyndham Medellín",
     "type": "Hotel",
     "Start": "4",
@@ -73,7 +73,7 @@
   },
   {
     "id": "7",
-    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/336276289.jpg?k=fe4486fec017008083803105bc89f18e7978a094eeb9b6e41d619baefeee9235&o=&hp=1",
+    "urlImagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/336276289.jpg?k=fe4486fec017008083803105bc89f18e7978a094eeb9b6e41d619baefeee9235&o=&hp=1",
     "name": "Puerto Amarras Hotel & Suites",
     "type": "Hotel",
     "Start": "4",
@@ -85,7 +85,7 @@
   },
   {
     "id": "8",
-    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/135526802.jpg?k=1a6ebde81b337b45f3adbddb040d231cf05e90276d07cd232cffc7553ed27d47&o=&hp=1",
+    "urlImagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/135526802.jpg?k=1a6ebde81b337b45f3adbddb040d231cf05e90276d07cd232cffc7553ed27d47&o=&hp=1",
     "name": "Eco-Hostal Tambo Verde",
     "type": "Hostel",
     "Start": "2",

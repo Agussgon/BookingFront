@@ -2,16 +2,20 @@
 
 
 
-const Card=({type, name,location, url })=>{
+const Card=({type, name,start, url })=>{
 
     return( 
-    <>
-    <div> <img src={url} alt={name}/> </div>
     <div>
+        <div> <img src={url} alt={name}/> 
+         </div>
+         <div>
         <h3>{type}</h3>
         <p>{name}</p>
-        <p>{location}</p>
-    </div>
+        <p>{start}</p>
+        </div>
 
-    </>)
+    </div>
+    )
 }
+
+export default Card;
