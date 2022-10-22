@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "url imagen": "https://www.luxurylatinamerica.com/argentina/photos/arg_faena400.jpg",
+    "name": "Hotel Faena",
+    "type": "Hotel",
+    "Start": "5",
+    "qualification-numbre": "8",
+    "qualification-text": "Muy bueno",
+    "description": "El Faena Hotel Buenos Aires se encuentra en la exclusiva zona de Puerto Madero y es un lujoso hotel de 5 estrellas de diseño situado en un edificio impresionante con spa y piscina. Además, hay WiFi",
+    "distance": "2,1 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "2",
+    "url imagen": "https://media-cdn.tripadvisor.com/media/photo-s/26/68/86/a4/exterior.jpg",
+    "name": "Hilton Bogota",
+    "type": "Hotel",
+    "Start": "5",
+    "qualification-numbre": "9",
+    "qualification-text": "Muy bueno",
+    "description": "Disfrute de la ubicación céntrica y del elegante ambiente del hotel Hilton Bogota. Ubicado en el centro del distrito financiero, el hotel se encuentra cerca la Zona Rosa, uno de los vecindarios más prestigiosos de la ciudad y de la Zona G, que ofrece entretenimiento y restaurantes",
+    "distance": "1,1 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "3",
+    "url imagen": "https://media-cdn.tripadvisor.com/media/photo-s/02/22/bd/51/de-ingang-van-de-hostel.jpg",
+    "name": "Aldea hostel Cordoba",
+    "type": "Hostel",
+    "Start": "3",
+    "qualification-numbre": "6",
+    "qualification-text": "Bueno",
+    "description": "Nos encontramos en pleno centro de la ciudad de Córdoba, a pocas cuadras de bares, cines, teatros y los circuitos turísticos más importantes.",
+    "distance": "4,7 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "4",
+    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/376956938.jpg?k=ff61081a6d8ae792aa70aafd18683c0baf40bf703c14ab0642a51a02f76d800b&o=&hp=1",
+    "name": "Luxury Apartments in Recoleta",
+    "type": "Departamento",
+    "Start": "4",
+    "qualification-numbre": "9,3",
+    "qualification-text": "Muy bueno",
+    "description": "El Luxury Apartments in Recoleta se encuentra en Buenos Aires, a 1,5 km del jardín japonés de Buenos Aires y a 1,3 km del Museo de Arte Latinoamericano de Buenos Aires MALBA, y ofrece alojamiento con WiFi gratuita, aire acondicionado y acceso a un jardín con piscina al aire libre.",
+    "distance": "1,5 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "5",
+    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/336276289.jpg?k=fe4486fec017008083803105bc89f18e7978a094eeb9b6e41d619baefeee9235&o=&hp=1",
+    "name": "Andiamo Guest House",
+    "type": "Bed and Breakfasts",
+    "Start": "3",
+    "qualification-numbre": "6",
+    "qualification-text": "Bueno",
+    "description": "El Andiamo Guest House se encuentra en Buenos Aires y ofrece vistas al jardín, centro de fitness, salón compartido, jardín, zona de barbacoa y terraza. Hay WiFi gratuita en todas las instalaciones.",
+    "distance": "5,1 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "6",
+    "url imagen": "https://www.wyndhamhotels.com/content/dam/property-images/en-us/lq/co/others/medellin/52734/52734_exterior_day_1.jpg",
+    "name": "La Quinta by Wyndham Medellín",
+    "type": "Hotel",
+    "Start": "4",
+    "qualification-numbre": "9",
+    "qualification-text": "Muy Bueno",
+    "description": "La Quinta by Wyndham Medellin se encuentra en Medellín, a 2,4 km del parque El Poblado, y ofrece alojamiento, restaurante, aparcamiento privado gratuito, centro de fitness y bar. ",
+    "distance": "1,9 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "7",
+    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/336276289.jpg?k=fe4486fec017008083803105bc89f18e7978a094eeb9b6e41d619baefeee9235&o=&hp=1",
+    "name": "Puerto Amarras Hotel & Suites",
+    "type": "Hotel",
+    "Start": "4",
+    "qualification-numbre": "8,5",
+    "qualification-text": "Muy Bueno",
+    "description": "El Puerto Amarras Hotel & Suites, situado en el interior del puerto, ofrece restaurante, spa, gimnasio, piscina en Santa Fe, conexión Wi-Fi gratuita y desayuno.",
+    "distance": "0,8 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  },
+  {
+    "id": "8",
+    "url imagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/135526802.jpg?k=1a6ebde81b337b45f3adbddb040d231cf05e90276d07cd232cffc7553ed27d47&o=&hp=1",
+    "name": "Eco-Hostal Tambo Verde",
+    "type": "Hostel",
+    "Start": "2",
+    "qualification-numbre": "7",
+    "qualification-text": "Bueno",
+    "description": "El Eco-Hostal Tambo Verde se encuentra en Santiago, a 700 metros del patio Bellavista, y ofrece servicio de conserjería, habitaciones hipoalergénicas, salón compartido, WiFi gratuita en todas las instalaciones y jardín.",
+    "distance": "0,9 km del centro",
+    "icons": "../../assets/icons/wifi.png"
+  }
+]

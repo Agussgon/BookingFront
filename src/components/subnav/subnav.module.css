@@ -65,10 +65,28 @@ input::placeholder {
   border-style: none;
   padding-left: 1%;
   outline: none;
+  appearance:none;
+  display: flex;
+}
+.input_inter_search{
+  border: none;
+  outline: none;
 }
 .container_calend{
   z-index: 99;
   position: absolute;
   top: 35%;
   right: 25%;
+}
+
+
+/* option:nth-child(1){
+  background-color: red;
+} */
+
+optgroup[label] {
+  color: grey;
+  font-style: inherit;
+  font-weight: 300;
+  text-shadow: none;
 }
