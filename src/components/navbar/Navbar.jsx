@@ -6,6 +6,8 @@ import '../../styles/index.css' //General
 import styles from './navbar.module.css' //Module
 
 
+
+
 /* Dentro del header armar un bloque alineado a la
 izquierda que incluya el logotipo y el lema de la
 empresa. Ambos deben ser clickeables por las
@@ -33,8 +35,8 @@ const Navbar = () => {
         </div>
 
         <div className={styles.div2}>
-          <button className="button1">Crear Cuenta</button>
-          <button className="button1">Iniciar Sesion</button>
+        <Link to='/signin'><button type="submit" className="button1"  >Crear Cuenta</button></Link>
+        <Link to='/'> <button type="submit" className="button1">Iniciar Sesion</button></Link>
         </div>
       </header>
     </>

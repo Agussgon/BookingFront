@@ -11,6 +11,7 @@ import insta from "../../assets/icons/instagram.png";
 import link from "../../assets/icons/linked.png";
 import twitter from "../../assets/icons/twitter.png";
 
+
 const Footer = () => {
   return (
     <>
