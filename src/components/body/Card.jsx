@@ -8,7 +8,7 @@ const Card=({type, name, start, url, descripcion})=>{
     <div className={styles.card}>
         <div className={styles.card_child1} > <img src={url} alt={name}/> 
         </div>
-        <div className="card_child2">
+        <div className={styles.card_child2} >
         <h3>{type}</h3>
         <p>{name}</p>
         <p>{start}</p>

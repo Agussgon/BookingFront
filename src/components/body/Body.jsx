@@ -7,8 +7,8 @@ import styles from './body.module.css' //Module
 
 //json 
 import data from '../../data/data.json'
-
-import Card from './Card'
+// importando componente hijo
+import List from './List'
 
 const Body = () => {
 
@@ -16,10 +16,7 @@ const Body = () => {
     
     <main >
       <div className={styles.bodyCont}>
-       
-        { 
-                data.map(type =>< Card key={type.id} type={type.type} name={type.name} start={type.Start} url={type.urlImagen} descripcion={type.description}/>)
-               }
+       <List data={data}/>
       </div>
       
     </main>

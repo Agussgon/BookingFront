@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <div className={styles.div2}>
         <Link to='/signin'><button type="submit" className="button1"  >Crear Cuenta</button></Link>
-        <Link to='/'> <button type="submit" className="button1">Iniciar Sesion</button></Link>
+        <Link to='/login'> <button type="submit" className="button1">Iniciar Sesion</button></Link>
         </div>
       </header>
     </>
