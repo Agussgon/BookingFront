@@ -18,7 +18,7 @@ const Body = () => {
       <div className={styles.bodyCont}>
        
         { 
-                data.map(type =>< Card key={type.id} type={type.type} name={type.name} start={type.Start} url={type.urlImagen}/>)
+                data.map(type =>< Card key={type.id} type={type.type} name={type.name} start={type.Start} url={type.urlImagen} descripcion={type.description}/>)
                }
       </div>
       
