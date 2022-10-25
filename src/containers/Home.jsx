@@ -1,5 +1,5 @@
 // Components
-import Body from '../components/body/Body';
+import List from '../components/body/List';
 import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar';
 import Subnav from '../components/subnav/Subnav';
@@ -9,7 +9,7 @@ function Home() {
     <>
     <Navbar/>
     <Subnav/>
-    <Body/>
+    <List />
     <Footer/>
     </>
   );
