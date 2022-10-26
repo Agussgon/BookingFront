@@ -1,45 +1,15 @@
-/* Modularization of components : Navbar */
-
 /*Crear un header al 100 % de la pantalla y de
 posición fija al tope de la página que se verá en
 todas las pantallas de la aplicación,
  */
-.header1 {
-    position: sticky;
-    top:0;
-    background-color: var(--pink);
-    height: 15vh;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end; 
-    flex-wrap: wrap;
-    padding: 0.5% 2% ;
-    
+.header {
+	position: sticky;
+	top: 0;
+	height: 80px;
+	
+}
+.header_section {
+	width:30%;
+	gap: 2%;
 }
 
-.div1{
-    width: 3%;
-    display: flex;
-    justify-content:space-around;
-    align-items: flex-end;
-    flex-grow: 0.3;
-  
-
-    
-}
-
-.div2{
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
-}
-
-a{ text-decoration:none;
-   font-style:italic; 
-}
-
-p{
-  padding-bottom:5%;
- 
-}

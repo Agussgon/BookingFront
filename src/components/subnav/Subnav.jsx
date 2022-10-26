@@ -56,19 +56,19 @@ const Subnav = () => {
 
 
   return (
-    <div className={styles.subnav_container}>
-      <div className={styles.subnav_container_box}>
-        <h1 className={styles.title}>Busca ofertas en hoteles, casas y mucho más</h1>
+    <div className={`f-col bgblue colorText ${styles.subnav_container}`}>
+      <div className={`f-row f-center ${styles.section_container}`}>
+        <h1 className="main_title">Busca ofertas en hoteles, casas y mucho más</h1>
       </div>
-      <div className={styles.subnav_container_box}>
-        <form action="" className={styles.form_search}>
-          <div className={styles.search}>
-            <div className={styles.container_icon}>
-              <img src={position} alt="Icon Position" className={styles.icon_subnav} />
+      <div className={`f-row f-center ${styles.section_container}`}>
+        <form action="" className={`f-row f-space-around ${styles.form_search}`}>
+          <div className={`f-row f-start f-alignItCont-center h50Porcent search`}>
+            <div className={`f-row f-center f-alignItCont-center ${styles.container_icon}`}>
+              <img src={position} alt="Icon Position" className="icons_input" />
             </div>
 
             <select onChange={handleCity} placeholder='¿A dónde vamos?'
-              className={styles.input_search} >
+              className="f-row input_search" >
 
               {
                 listCity.map(city =>
@@ -88,15 +88,14 @@ const Subnav = () => {
             </select>
 
           </div>
-          <div className={styles.search}>
-            <div className={styles.container_icon}>
-              <img src={calend} alt="Icon Calendary" />
+          <div className={`f-row f-start f-alignItCont-center h50Porcent search`}>
+            <div className={`f-row f-center f-alignItCont-center ${styles.container_icon}`}>
+              <img src={calend} alt="Icon Calendary" className="icons_input"/>
             </div>
-            <div className={styles.input_search}>
-              <input type='text' placeholder='Check in' readOnly value={model.dateDeparture} className={styles.input_inter_search} onClick={()=>setShowDatePicker(true)} />
+            <div className="f-row input_search">
+              <input type='text' placeholder='Check in' readOnly value={model.dateDeparture} className="f-row input_search" onClick={()=>setShowDatePicker(true)} />
               {/* <input type='text' placeholder='Check out' className={styles.input_inter_search} readOnly value={endDate} /> */}
             </div>
-
           </div>
           <button className='button2'>Buscar</button>
         </form>
@@ -114,10 +113,6 @@ const Subnav = () => {
           onClickOutside={()=>setShowDatePicker(false)}
           inline
         />}
-
-        
-
-
       </div>
 
       {/* <Dropdown title="Select movie" items={listCity} multiSelect /> */}

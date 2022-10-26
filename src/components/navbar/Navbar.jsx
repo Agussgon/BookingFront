@@ -12,7 +12,7 @@ import styles from './navbar.module.css' //Module
 izquierda que incluya el logotipo y el lema de la
 empresa. Ambos deben ser clickeables por las
 personas usuarias y dirigir a la home del sitio. */
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 /*Dentro del header armar un bloque alineado a la
 derecha que contenga (según el caso) un botón de
@@ -28,15 +28,15 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={styles.header1} >
-        <div className={styles.div1}>
+      <header className={`bgpink vw100 f-row f-space-between .f-alignIt-end ${styles.header}`} >
+        <div className={`f-row f-center f-alignItCont-center  ${styles.header_section}`}>
           <Link to='/'><img src={img} alt='logo' /></Link>
-          <Link to='/'> <p >Sentite como en tu hogar</p></Link>
+          <Link to='/'><p>Sentite como en tu hogar</p></Link>
         </div>
 
-        <div className={styles.div2}>
-        <Link to='/signin'><button type="submit" className="button1"  >Crear Cuenta</button></Link>
-        <Link to='/login'> <button type="submit" className="button1">Iniciar Sesion</button></Link>
+        <div className={`f-row f-center f-alignItCont-center  ${styles.header_section}`}>
+          <NavLink className="button1" to='/signin'>Crear Cuenta</NavLink>
+          <NavLink className="button1" to='/login'>Iniciar Sesion</NavLink>
         </div>
       </header>
     </>

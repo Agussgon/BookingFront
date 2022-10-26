@@ -21,11 +21,11 @@
 }
 
 .f-start {
-	justify-content: flex-start;
+	justify-content: start;
 }
 
 .f-end {
-	justify-content: flex-end;
+	justify-content: end;
 }
 
 .f-center {
@@ -59,6 +59,16 @@
 .f-right {
 	justify-content: right;
 }
+.f-alignItCont-center{
+	align-items: center;
+	align-content: center;
+}
+
+.f-alignIt-end{
+	align-items: flex-end; 
+}
+
+
 
 .vh100{
 	height: 100vh;
@@ -67,35 +77,138 @@
 	width: 100vw;
 }
 
-.bg {
-	background-color: red;
+.h50Porcent{
+  height: 50%;
 }
 
+.bgblue {
+	background-color: var(--blue);
+}
+.bgpink {
+	background-color: var(--pink);
+}
+
+.colorText{
+	color: var(--white);
+}
+
+
+
+
+/* Titulo principal (componente) */
+.main_title {
+  display: flex;
+	align-items: center;
+  margin: 0%;
+  font-size: 25px;
+}
+/* search "el que esta dentro del subnav" y falta ver si lo usamos en otros (componente) */
+.search {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 38%;
+  padding-left: 0.5%;
+}
+/*Inputs search "Eliminacion estilos" (componente) */
+.input_search {
+  width: 90%;
+  text-decoration: none;
+  border-style: none;
+  padding-left: 1%;
+  outline: none;
+  appearance:none;
+}
+
+/*Icons Input (componente)*/
+.icons_input {
+  width: 20px;
+  height: 23px;
+}
+/*Button1 (componente)*/
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 40%;
+  font-weight: 600;
+  font-size: small;
+  background-color: var(--white);
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+  border-radius: 5px;
+}
+/*Button2 (componente)*/
+.button2 {
+  width: 20%;
+  height: 50%;
+  font-weight: 600;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border: var(--yellow);
+  border-radius: 5px;
+  background-color: var(--yellow);
+  color: white;
+  cursor: pointer;
+}
+
+/*Card*/
 .container_card {
 	background-color: var(--pink);
 	gap: 2%;
 }
 
+/* Card de recomendaciones (componente) */
 .card_recomend {
 	width: 45%;
 	margin-top: 2%;
 	box-shadow: 4px 8px 19px -3px rgba(34, 27, 27, 0.27);	/*cambiar color*/
 	border-radius: 5px;
 	gap: 2%;
-	background-color: white;
+	background-color: var(--white);
 }
+
+/* Imagen de la Card (componente) */
 .m-img-deskt {
 	height: 220px;
 	width: 220px;
 	border-radius: 8px;
 }
-
+/*Tablet*/
 @media (max-width: 768px) {
 	.card_recomend {
 		width: 90%;
 	}
+	.main_title {
+		font-size: 22.5px;
+	}
+	.search {
+		width: 35%;
+	}
 }
-
+/*Intermedio*/
+@media (max-width: 560px) {
+	.main_title {
+		font-size: 20px;
+		text-align: center;
+	}
+	.search {
+		width: 85%;
+		/* margin-top: 1%; */
+		height: 30%;
+		padding: 0%;
+	}
+	.button2 {
+		width: 85%;
+		/* margin-top: 1%; */
+		height: 30%;
+	}
+	.icons_input {
+		width: 17px;
+		height: 20px;
+	}
+}
+/*Mobile*/
 @media (max-width: 415px) {
 	.m-img-deskt {
 		width: 90%;

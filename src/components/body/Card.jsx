@@ -18,19 +18,6 @@ const Card = ({ type, name, stars, urlImagen, description }) => {
 
 
   return (
-    // <div className={styles.card}>
-    //   <div className={styles.card_child1} > <img src={urlImagen} alt={name} />
-    //   </div>
-    //   <div className={styles.card_child2} >
-    //     <h3>{type}</h3>
-    //     <p>{name}</p>
-    //     <p>{stars}</p>
-    //     <img src={staricon} alt='estrella ' />
-    //     {star}
-    //     <p>{description}</p>
-    //     <button type="submit">Ver mas</button>
-    //   </div>
-    // </div>
     <>
       <div className={`f-row card_recomend`}>
         <img src={urlImagen} alt={name} className="m-img-deskt" /> 

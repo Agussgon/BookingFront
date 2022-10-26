@@ -1,18 +1,15 @@
-/* General Styles */
-
-
 /*Representar un body general con el color de
 background elegido que ocupe el 100 % del alto de
 la pantalla.*/
 
+/* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('./G3Library.css');
 
-
 body {
   margin: 0;
- 
- 
+  height: 100vh;
+  width: 100vw;
 }
 
 * {
@@ -28,37 +25,18 @@ body {
   --blue: #607D8B;
   --black: #263238;
   --pink: #FFFBE2;
-  --button2: #FBC02D;
+  --white: white;
 }
 
 p {
   color: var(--yellow);
 }
 
-
-.button1 {
-
-  background: var(--pink);
-  color: var(--grey);
-  border: 1px solid var(--grey);
-  border-radius: 5px;
-  padding: 10px 40px;
-  box-sizing: border-box;
-  font-weight: bold;
-  font-size:small;
-  
- 
- 
-}
-.button2 {
-  width: 20%;
-  height: 50%;
-  box-sizing: border-box;
-  background-color: var(--button2);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
-  border: var(--button2);
-  border-radius: 5px;
-  color: white;
+input::placeholder {
+  color: #7F7F7F;
   font-weight: 600;
-  cursor: pointer;
+}
+
+a {
+	text-decoration: none;
 }
