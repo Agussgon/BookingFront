@@ -2,17 +2,21 @@ import Navbar from "../components/navbar/Navbar"
 import Footer from "../components/footer/Footer"
 
 //
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom"; 
 
 
 //Login en proceso 
 
 // importamos el hook useInput para crear el objeto input 
-import useInput from '../helpers/useInput'
+import useInput from '../hooks/useInput'
 import { validateEmail , validatePass} from "../helpers/ValidateForms";
 
 export const Login = ()=>{
+
+
+    const navigate = useNavigate();
 
     //sesión guardada
     const sesion={
@@ -58,13 +62,13 @@ useInput
      const handleSubmit = (e)=> {
        
         e.preventDefault();
-        localStorage.clear();
-        if(! validateEmail(mail) || ! validatePass(pass) || sesion.email !== mail.value ||
+      // localStorage.clear();
+        if(validateEmail(mail)===false || validatePass(pass)===false || sesion.email !== mail.value ||
          sesion.password !== pass.value)  {
           setError(true);
-        window.location.reload();
+       //  window.location.reload();
         // document.form.reset() ;
-          
+         
           setUser({
             email: '',
             password:'' 
@@ -77,10 +81,10 @@ useInput
             })
             localStorage.setItem('user', JSON.stringify(user));
         
-            //<Navigate to="./"/> 
+           navigate("/home");
           //  window.location.replace('./')
           // faltaría que guarde la sesión para poder modificar el header
-        }
+       }
     }
 
     
@@ -111,8 +115,8 @@ useInput
 						<div className="f-row">
 							<div className="f-col">
 								<div style={{ marginTop: '30px' }}>
-                                    { error?<p>campos requeridos</p>: <Navigate to="./"/> }
-									<input type="submit" onClick={handleSubmit} className="btn btn-primary" value="ingresar" />
+                                    { error && <p>campos requeridos</p>}
+									<input type="button" onClick={handleSubmit} className="btn btn-primary" value="ingresar" />
 								</div>
 								<Link to='/signin'>¿No tienes una cuenta? <span>Registrarme</span></Link>
 							</div>
