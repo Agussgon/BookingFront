@@ -28,13 +28,13 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={`bgpink vw100 f-row f-space-between .f-alignIt-end ${styles.header}`} >
+      <header className={`bgpink vw100 f-row f-space-between .f-alignIt-end  ${styles.header}`} >
         <div className={`f-row f-center f-alignItCont-center  ${styles.header_section}`}>
           <Link to='/'><img src={img} alt='logo' /></Link>
           <Link to='/'><p>Sentite como en tu hogar</p></Link>
         </div>
 
-        <div className={`f-row f-center f-alignItCont-center  ${styles.header_section}`}>
+        <div className={`f-row f-center f-alignItCont-center  ${styles.header_section} ${styles.header_section_button}`} >
           <NavLink className="button1" to='/signin'>Crear Cuenta</NavLink>
           <NavLink className="button1" to='/login'>Iniciar Sesion</NavLink>
         </div>

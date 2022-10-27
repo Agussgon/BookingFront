@@ -9,12 +9,14 @@ import Subnav from '../components/subnav/Subnav';
 
 function Home() {
   
+  
   // ver si funciona 
     const user= JSON.parse(localStorage.getItem('logged'));
     console.log(user);
   // cuando redirecciona desde el login no esta guardando la sesión por eso no funciona...
     return (
       <>
+     
       { user === true  ? <NavbarLogin/>:<Navbar/>}
       <Subnav/>
       <List/>

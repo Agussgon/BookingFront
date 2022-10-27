@@ -129,7 +129,7 @@ export const SignIn = () => {
 								<div style={{ marginTop: '30px' }}>
 									<input type="submit" onClick={createAccount} className="btn btn-primary" value="Crear cuenta" />
 								</div>
-								<Link to='/'>¿Ya tienes una cuenta? <span>Iniciar sesión</span></Link>
+								<Link to='/login'>¿Ya tienes una cuenta? <span>Iniciar sesión</span></Link>
 							</div>
 						</div>
 					</form>
