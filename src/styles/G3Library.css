@@ -125,6 +125,12 @@
   width: 20px;
   height: 23px;
 }
+
+/*Icons Card (componente)*/
+ .icons_card {
+	width: 10px;
+	height: 15x;
+}
 /*Button1 (componente)*/
 .button1 {
   display: flex;
@@ -152,11 +158,32 @@
   cursor: pointer;
 }
 
+/*Button3 (card_alojamientos)*/
+.button3 {
+	width: 20%;
+	height: 10%;
+	font-weight: 600;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+	border: var(--yellow);
+	border-radius: 5px;
+	background-color: var(--yellow);
+	color: white;
+	cursor: pointer;
+  }
+  
+
 /*Card*/
 .container_card {
 	background-color: var(--pink);
 	gap: 2%;
 }
+
+.container_card_category {
+	background-color: var(--white);
+	gap: 2%;
+	
+}
+
 
 /* Card de recomendaciones (componente) */
 .card_recomend {
@@ -166,7 +193,23 @@
 	border-radius: 5px;
 	gap: 2%;
 	background-color: var(--white);
+	
 }
+/*cambio la fuente solo para las cards de alojamientos */
+.card_recomend p{ color: var(--blue);font-size: small;}
+
+/* Card de categorias*/
+/**/
+.card_category {
+	margin-top: 2%;
+	box-shadow: 4px 8px 19px -3px rgba(34, 27, 27, 0.27);	/*cambiar color*/
+	border-radius: 5px;
+	gap: 2%;
+	background-color: var(--white);
+
+
+}
+
 
 /* Imagen de la Card (componente) */
 .m-img-deskt {
@@ -174,6 +217,17 @@
 	width: 220px;
 	border-radius: 8px;
 }
+/* Imagen de categorias */
+.m-img-deskt-category {
+	height: 220px;
+	width: 300px;
+	border-radius: 8px;
+	opacity: 0.8;
+}
+
+
+.m-img-deskt-category:hover{ opacity:1;}
+
 /*Tablet*/
 @media (max-width: 768px) {
 	.card_recomend {
@@ -185,6 +239,10 @@
 	.search {
 		width: 35%;
 	}
+
+	.card_category {}
+	/* Imagen de categorias */
+   
 
 }
 /*Intermedio*/

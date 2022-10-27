@@ -1,8 +1,9 @@
 
-import staricon from '../../assets/icons/star.png'
+//import staricon from '../../assets/icons/star.png'
+import position from '../../assets/icons/position.png'
 
 
-const Card = ({ type, name, stars, urlImagen, description }) => {
+const Card = ({ type, name,distance, urlImagen, description }) => {
   // console.log(type, stars)
   //
   /* react-dom.development.js:86 Warning: Functions are not valid as a React child. 
@@ -21,14 +22,14 @@ const Card = ({ type, name, stars, urlImagen, description }) => {
     <>
       <div className={`f-row card_recomend`}>
         <img src={urlImagen} alt={name} className="m-img-deskt" /> 
-        <div>  {/* terminar de cuadrar */}
+        <div className={`f-col f-center`} >  {/* terminar de cuadrar */}
         {/* <div className={styles.card_child2} > */}
           <h3>{type}</h3>
-          <p>{name}</p>
-          <p>{stars}</p>
-          <img src={staricon} alt='estrella ' />
-          <p>{description}</p>
-          <button type="submit">Ver mas</button>
+          <p><img src={position} alt='ubicacion ' className={"icons_card"}/>{name}</p>
+          <p>{distance}</p>
+        {/*<img src={staricon} alt='estrella ' /> */}  
+          <p>{description}  </p>
+          <button type="submit" className={"button3"}>Ver detalle</button>
         </div>
       </div>
     </>
