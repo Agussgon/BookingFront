@@ -9,7 +9,41 @@ todas las pantallas de la aplicación,
 	
 }
 .header_section {
-	width:30%;
 	gap: 2%;
+	width: 30%;
 }
 
+/*Tablet*/
+@media (max-width: 768px) {
+	
+   .header{
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+   }
+   .header_section {
+	
+	width: 40%;
+}
+  }
+
+
+/*Mobile*/
+@media (max-width: 560px) {
+	.header{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header_section {
+	
+	width: auto;
+}
+  .header_section_button{
+	flex-direction: column;
+    justify-content: center;
+	
+}
+ 
+}
+  

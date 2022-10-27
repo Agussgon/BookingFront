@@ -7,7 +7,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom"; 
 
 
-//Login en proceso 
 
 // importamos el hook useInput para crear el objeto input 
 import useInput from '../hooks/useInput'
@@ -81,7 +80,7 @@ useInput
             })
             localStorage.setItem('user', JSON.stringify(user));
         
-           navigate("/home");
+           navigate("/");
           //  window.location.replace('./')
           // faltaría que guarde la sesión para poder modificar el header
        }
@@ -101,7 +100,7 @@ useInput
 							<div className="f-col">
 							    <label>Email</label>
 
-                                <input value={mail.value} onChange={mail.onChange} />	
+                                <input value={mail.value} onChange={mail.onChange} required />	
                             </div>
 						</div>
 
@@ -109,13 +108,13 @@ useInput
 							<div className="f-col">
 								         
                             <label>Password</label>
-                            <input value={pass.value} onChange={pass.onChange} />
+                            <input value={pass.value} onChange={pass.onChange} required/>
 							</div>			
 						</div>
 						<div className="f-row">
 							<div className="f-col">
 								<div style={{ marginTop: '30px' }}>
-                                    { error && <p>campos requeridos</p>}
+                                    { error && <p> Por favor vuelva a intentarlo, sus credenciales son inválidas.</p>}
 									<input type="button" onClick={handleSubmit} className="btn btn-primary" value="ingresar" />
 								</div>
 								<Link to='/signin'>¿No tienes una cuenta? <span>Registrarme</span></Link>
