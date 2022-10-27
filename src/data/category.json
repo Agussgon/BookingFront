@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "urlImagen": "https://www.luxurylatinamerica.com/argentina/photos/arg_faena400.jpg",
+    "category_name": "Hotel",
+    "category_count": 807.105
+  },
+  {
+    "id": "2",
+    "urlImagen": "https://media-cdn.tripadvisor.com/media/photo-s/26/68/86/a4/exterior.jpg",
+    "category_name": "Hostel",
+    "category_count": 807.105
+  },
+  {
+    "id": "3",
+    "urlImagen": "https://media-cdn.tripadvisor.com/media/photo-s/02/22/bd/51/de-ingang-van-de-hostel.jpg",
+    "category_name": "Departamento",
+    "category_count": 807.105
+  },
+  {
+    "id": "4",
+    "urlImagen": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/376956938.jpg?k=ff61081a6d8ae792aa70aafd18683c0baf40bf703c14ab0642a51a02f76d800b&o=&hp=1",
+    "category_name": "Bed and Breakfasts",
+    "category_count": 807.105
+  }
+]

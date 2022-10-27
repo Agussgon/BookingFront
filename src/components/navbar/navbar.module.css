@@ -12,6 +12,10 @@ todas las pantallas de la aplicación,
 	gap: 2%;
 	width: 30%;
 }
+.prueba222{
+	height: 150px;
+	background-color:red;
+}
 
 /*Tablet*/
 @media (max-width: 768px) {

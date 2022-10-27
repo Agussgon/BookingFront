@@ -9,9 +9,10 @@ import Subnav from '../components/subnav/Subnav';
 
 function Home() {
   
-  
+  //const local = JSON.parse(localStorage.getItem('logged'))
   // ver si funciona 
     const user= JSON.parse(localStorage.getItem('logged'));
+    //const user = local;
     console.log(user);
   // cuando redirecciona desde el login no esta guardando la sesión por eso no funciona...
     return (

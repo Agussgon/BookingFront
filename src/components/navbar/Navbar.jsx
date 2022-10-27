@@ -14,6 +14,8 @@ izquierda que incluya el logotipo y el lema de la
 empresa. Ambos deben ser clickeables por las
 personas usuarias y dirigir a la home del sitio. */
 import { Link, NavLink } from 'react-router-dom';
+import { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
 
 /*Dentro del header armar un bloque alineado a la
 derecha que contenga (según el caso) un botón de
@@ -24,8 +26,9 @@ las iniciales del nombre de usuario y un link de cierre
 de sesión. */
 
 const Navbar = () => {
+  const datos = useContext(AppContext);
 
-
+  
 
   return (
     <>
@@ -34,12 +37,17 @@ const Navbar = () => {
           <Link to='/'><img src={img2} alt='logo' /></Link>
           <Link to='/'><p>Sentite como en tu hogar</p></Link>
         </div>
-
+        <div className='prueba222'>
+        {/* <h1>{otro}</h1> */}
+        <h1>{datos.hoteles}</h1>
+      </div>
         <div className={`f-row f-center f-alignItCont-center  ${styles.header_section} ${styles.header_section_button}`} >
           <NavLink className="button1" to='/signin'>Crear Cuenta</NavLink>
           <NavLink className="button1" to='/login'>Iniciar Sesion</NavLink>
         </div>
       </header>
+
+      
     </>
   )
 }
