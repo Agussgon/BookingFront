@@ -171,8 +171,14 @@
 	cursor: pointer;
   }
   
+  /*h2 y p del contenedor de categorias*/
+  .container_text_category h2,  .container_text_category p{
+	color:var(--blue);
+	margin-left: 3%;
+  }
 
 /*Card*/
+
 .container_card {
 	background-color: var(--pink);
 	gap: 2%;
@@ -240,9 +246,6 @@
 		width: 35%;
 	}
 
-	.card_category {}
-	/* Imagen de categorias */
-   
 
 }
 /*Intermedio*/
@@ -261,6 +264,13 @@
 	
 	.button2 {
 		width: 85%;
+		/* margin-top: 1%; */
+		height: 25%;
+	}
+
+
+	.button1 {
+		width: 60%;
 		/* margin-top: 1%; */
 		height: 30%;
 	}

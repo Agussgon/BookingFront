@@ -16,8 +16,9 @@ derecha que incluya íconos de redes sociales. Los
   justify-content:center;
   height: 60px;
   width: 100vw;
- /* margin-top: 100%;
- si hacemos esto en el home queda un gran espacio vacio x lo que habria que aplicarlo en la etiqueta footer
+  margin-top: 2%;
+  
+/*margin-top: 100%; si hacemos esto en el home queda un gran espacio vacio x lo que habria que aplicarlo en la etiqueta footer
  de login y signIn unicamente*/
  
  

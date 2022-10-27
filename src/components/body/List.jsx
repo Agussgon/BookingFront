@@ -14,14 +14,15 @@ import { Category } from './Category'
 const List = () => {
 	return (
 		<>
+		
 		{/*Implementar el template del bloque Categorías Categorías: Crear un bloque 
 		que incluya un heading <h2 /> cómo título, un parágrafo <p /> y debajo 4 imágenes
 		 con sus correspondientes captions. */ }
 
         <div>
-		<div className={`f-column f-center `}>
+		<div className={`f-column f-center container_text_category`}>
 			<h2>Buscar por tipo de alojamiento</h2> 
-			<p>En Digital Booking vas a encontrar tu alojamiento ideal al mejor precio a tan solo un click </p>
+			<p>En Digital Booking vas a encontrar tu alojamiento ideal al mejor precio  </p>
 		</div>
 		<section className={`f-row f-center wrap container_card_category`}>
 			
@@ -40,6 +41,7 @@ const List = () => {
 				data.map(type => <Card dat={data} key={type.id}/>)
 			} */}
 		</section>
+
 		</>
 	)
 }

@@ -109,8 +109,9 @@ export const SignIn = () => {
 									defaultValue={model.pass}
 									onChange={(e) => model.pass = e.target.value}
 									className="form-control" required />
+									<img src={iconver} className={"icons_input"} alt="ver" onClick={() => handleInputType()} />
 							</div>
-							<img src={iconver} alt="ver" onClick={() => handleInputType()} />
+							
 						</div>
 
 						<div className="f-row">
@@ -135,7 +136,7 @@ export const SignIn = () => {
 					</form>
 				</div>
 			</div>
-			<Footer/>
+			<Footer />
 		</>
 	)
 }
