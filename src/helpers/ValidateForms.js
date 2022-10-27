@@ -13,10 +13,11 @@ export const ValidateFormHelper = (model) => {
 /* agrego validaciones */
 
 export function validateEmail(email) {
-    //const arroba= email.split("@");
+
     //const regexEmail= /^[a-zA-Z0-9.!#$%&'*+=?^_`{|}~-]{0,25}@[a-zA-Z0-9-]{0,25}[.]([a-zA-Z]+){1,10}$ | ^[a-zA-Z0-9.!#$%&'*+=?^_`{|}~-]{0,25}@[a-zA-Z0-9-]{0,25}(?:\.[a-zA-Z]+){1,10}$/;
-    //!regexEmail.test(email.value)
-    if(email.value ==='' || email.length<10 || email.length >30 || parseInt(email)   )
+     const regexEmail= /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i
+
+    if(email.value ==='' || !regexEmail.test(email.value) || parseInt(email)   )
      return false
    
 }

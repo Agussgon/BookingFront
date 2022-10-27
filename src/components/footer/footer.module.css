@@ -15,7 +15,12 @@ derecha que incluya íconos de redes sociales. Los
   display: flex;
   justify-content:center;
   height: 60px;
-  margin-top: 2%;
+  width: 100vw;
+ /* margin-top: 100%;
+ si hacemos esto en el home queda un gran espacio vacio x lo que habria que aplicarlo en la etiqueta footer
+ de login y signIn unicamente*/
+ 
+ 
 }
 .conteiner_footer{
   width:95%;

@@ -21,7 +21,7 @@ const List = () => {
         <div>
 		<div className={`f-column f-center `}>
 			<h2>Buscar por tipo de alojamiento</h2> 
-			<p>Encontrá lo que buscas </p>
+			<p>En Digital Booking vas a encontrar tu alojamiento ideal al mejor precio a tan solo un click </p>
 		</div>
 		<section className={`f-row f-center wrap container_card_category`}>
 			

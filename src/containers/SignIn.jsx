@@ -135,7 +135,7 @@ export const SignIn = () => {
 					</form>
 				</div>
 			</div>
-			<Footer />
+			<Footer/>
 		</>
 	)
 }
