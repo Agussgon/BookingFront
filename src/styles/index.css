@@ -21,11 +21,15 @@ body {
 
 :root {
   --grey: #607D8B;
-  --yellow: #FBC02D;
-  --blue: #607D8B;
+  --yellow: #1DBEB4;
+  --blue: #383B58;
+  /* --blue: #607D8B; */
   --black: #263238;
-  --pink: #FFFBE2;
+  --pink: #DFE4EA;
   --white: white;
+  /* --orange: #F0572D; */
+  --aquagreen: #1DBEB4;
+  --purple: #383B58;
 }
 
 p {

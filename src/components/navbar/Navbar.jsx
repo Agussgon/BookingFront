@@ -1,5 +1,6 @@
 //Assets
 import img from '../../assets/img/logo.png';
+import img2 from '../../assets/img/logo2.png';
 
 //Styles
 import '../../styles/index.css' //General
@@ -30,7 +31,7 @@ const Navbar = () => {
     <>
       <header className={`bgpink vw100 f-row f-space-between .f-alignIt-end ${styles.header}`} >
         <div className={`f-row f-center f-alignItCont-center  ${styles.header_section}`}>
-          <Link to='/'><img src={img} alt='logo' /></Link>
+          <Link to='/'><img src={img2} alt='logo' /></Link>
           <Link to='/'><p>Sentite como en tu hogar</p></Link>
         </div>
 
