@@ -5,15 +5,15 @@ import img from '../../assets/img/logo.png';
 import '../../styles/index.css' //General
 import styles from './navbar.module.css' //Module
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
-const NavbarLogin = () => {
+const NavbarLogin = ({user,setUser}) => {
     
 // traemos el usuario almacenado pide el nombre pero por ahora es el mail 
-    const user= JSON.parse(localStorage.getItem('logged'));
-
+    //const user= JSON.parse(localStorage.getItem('logged'));
+ const navigate=useNavigate();
 
     return (
       <>
@@ -24,8 +24,9 @@ const NavbarLogin = () => {
           </div>
   
           <div className={`f-row f-center f-alignItCont-center  ${styles.header_section} ${styles.header_section_button}`} >
-         <p>Hola {user.mail}</p>
-          <Link to='/'> <button type="submit" className="button1" onClick= {localStorage.clear()}>Cerrar Sesion</button></Link>
+            <p>Hola {user.email}</p>
+             {/*<Link to='/'> <button type="submit" className="button1" onClick= {localStorage.clear()}>Cerrar Sesion</button></Link>*/}
+              <button type="submit" className="button1" onClick= {()=>{setUser({}) ;navigate('/')} }>Cerrar Sesión</button>
           </div>
         </header>
       </>

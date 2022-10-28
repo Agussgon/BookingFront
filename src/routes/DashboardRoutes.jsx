@@ -11,14 +11,19 @@ import initialState from '../helpers/initialState';
 const DashboardRoutes = () => {
   // const initialState2 = useContext(useInitialState);
 
+  const [user,setUser]= useState({
+    email:'',
+    password:''
+  });
+
   return (
     // eslint-disable-next-line react/jsx-pascal-case
     <AppContext.Provider value={initialState}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home user={user} setUser={setUser}/>} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<Login user={user}  setUser={setUser}/>} />
           {/* <Route path="/nombre" element={<Nombre />} /> */}
           <Route path="/*" element={<Navigate to="/" />} />
         </Routes>

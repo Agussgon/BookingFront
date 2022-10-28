@@ -12,23 +12,23 @@ import { useNavigate } from "react-router-dom";
 import useInput from '../hooks/useInput'
 import { validateEmail , validatePass} from "../helpers/ValidateForms";
 
-export const Login = ()=>{
+export const Login = ({user,setUser})=>{
 
 
     const navigate = useNavigate();
 
     //sesión guardada
     const sesion={
-        email:"juan20@gmail.com",
-        password:"hola123@"
+        email:"juan@gmail.com",
+        password:"hol@123"
     }
     // objeto usuario 
-
+/* 
     const [user,setUser]= useState({
         email:'',
         password:''
     });
-
+ */
     const [error,setError]=useState(false)
 
  // ya le pasamos el tipo por parametro , en el form asignamos las propiedades de este objeto 

@@ -7,18 +7,20 @@ import Subnav from '../components/subnav/Subnav';
 
 
 
-function Home() {
+function Home({user,setUser}) {
+  
+
   
   //const local = JSON.parse(localStorage.getItem('logged'))
   // ver si funciona 
-    const user= JSON.parse(localStorage.getItem('logged'));
+    //const user= JSON.parse(localStorage.getItem('logged'));
     //const user = local;
     console.log(user);
   // cuando redirecciona desde el login no esta guardando la sesión por eso no funciona...
     return (
       <>
      
-      { user === true  ? <NavbarLogin/>:<Navbar/>}
+      { user.email !== '' || user.password !== ''? <NavbarLogin user={user} setUser={setUser} />:<Navbar/>}
       <Subnav/>
       <List/>
       <Footer/>
